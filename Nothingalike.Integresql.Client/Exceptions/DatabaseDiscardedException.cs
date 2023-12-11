@@ -1,4 +1,4 @@
-﻿namespace Toxon.Integresql.Client.Exceptions;
+﻿namespace Nothingalike.Integresql.Client.Exceptions;
 
 public class DatabaseDiscardedException : IntegresqlException
 {

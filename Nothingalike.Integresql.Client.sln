@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toxon.Integresql.Client", "Toxon.Integresql.Client\Toxon.Integresql.Client.csproj", "{D85FCA44-D821-4028-A19D-4E8A8462CE6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nothingalike.Integresql.Client", "Nothingalike.Integresql.Client\Nothingalike.Integresql.Client.csproj", "{D85FCA44-D821-4028-A19D-4E8A8462CE6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Toxon.Integresql.Client.RequestModels;
+namespace Nothingalike.Integresql.Client.RequestModels;
 
 [JsonSourceGenerationOptions(WriteIndented = false)]
 [JsonSerializable(typeof(InitializeTemplateRequest))]

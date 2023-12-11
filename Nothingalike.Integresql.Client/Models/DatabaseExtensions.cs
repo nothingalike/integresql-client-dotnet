@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Toxon.Integresql.Client.Models;
+namespace Nothingalike.Integresql.Client.Models;
 
 public static class DatabaseExtensions
 {

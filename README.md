@@ -1,10 +1,10 @@
-# Toxon.Integresql.Client
+# Nothingalike.Integresql.Client
 
 A .NET client for [IntegreSQL](https://github.com/allaboutapps/integresql), a management tool for isolated PostgreSQL databases for integration testing
 
 ## Usage
 
-- Install the [`Toxon.Integresql.Client`](https://www.nuget.org/packages/Toxon.Integresql.Client) nuget package
+- Install the [`Nothingalike.Integresql.Client`](https://www.nuget.org/packages/Nothingalike.Integresql.Client) nuget package
 - Create a client for communicating with the service
   ```csharp
   var client = new IntegresqlClient("http://localhost:5000/api");

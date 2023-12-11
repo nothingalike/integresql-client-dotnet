@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Toxon.Integresql.Client.Models;
+using Nothingalike.Integresql.Client.Models;
 
-namespace Toxon.Integresql.Client;
+namespace Nothingalike.Integresql.Client;
 
 public class DisposableDatabase : IAsyncDisposable
 {

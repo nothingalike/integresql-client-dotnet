@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Toxon.Integresql.Client.Exceptions;
+namespace Nothingalike.Integresql.Client.Exceptions;
 
 public abstract class IntegresqlException : Exception
 {

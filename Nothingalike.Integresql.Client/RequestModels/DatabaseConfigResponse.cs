@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using Toxon.Integresql.Client.Exceptions;
-using Toxon.Integresql.Client.Models;
+using Nothingalike.Integresql.Client.Exceptions;
+using Nothingalike.Integresql.Client.Models;
 
-namespace Toxon.Integresql.Client.RequestModels;
+namespace Nothingalike.Integresql.Client.RequestModels;
 
 internal class DatabaseConfigResponse
 {

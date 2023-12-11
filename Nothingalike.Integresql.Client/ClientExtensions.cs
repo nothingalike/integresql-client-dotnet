@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Toxon.Integresql.Client.Exceptions;
-using Toxon.Integresql.Client.Models;
+using Nothingalike.Integresql.Client.Exceptions;
+using Nothingalike.Integresql.Client.Models;
 
-namespace Toxon.Integresql.Client;
+namespace Nothingalike.Integresql.Client;
 
 public static class ClientExtensions
 {
@@ -24,7 +24,7 @@ public static class ClientExtensions
     
     public static async Task<DisposableDatabase> AcquireDatabase(this IIntegresqlDatabaseClient client, string hash)
     {
-        var database = await client.GetDatabase(hash).ConfigureAwait(false);
+        var database = await client.GetDatabase(hash);
 
         return new DisposableDatabase(client, database);
     }

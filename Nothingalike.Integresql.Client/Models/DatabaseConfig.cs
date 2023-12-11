@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Toxon.Integresql.Client.Models;
+namespace Nothingalike.Integresql.Client.Models;
 
 public class DatabaseConfig
 {

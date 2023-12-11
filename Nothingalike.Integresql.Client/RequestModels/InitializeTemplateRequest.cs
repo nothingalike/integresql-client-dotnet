@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Toxon.Integresql.Client.RequestModels;
+namespace Nothingalike.Integresql.Client.RequestModels;
 
 internal class InitializeTemplateRequest
 {
